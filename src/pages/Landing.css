@@ -1,0 +1,35 @@
+.greysprocketlogo {
+  width: 70%;
+  height: 140%;
+  z-index: -1;
+  line-height: 110px;
+  right: -300px;
+  top: 110px;
+  position: fixed;
+  object-fit: scale-down;
+}
+
+@media only screen and (max-width: 800px) {
+  .greysprocketlogo {
+    width: 150%;
+    height: 165%;
+    z-index: -1;
+    line-height: 110px;
+    right: -300px;
+    top: 110px;
+    position: fixed;
+    object-fit: scale-down;
+  }
+
+  .titlesprocketword {
+    font-family: futura-pt, sans-serif;
+    font-weight: "bold";
+    text-align: left;
+    line-height: 180px;
+    font-size: 120px;
+    user-select: none;
+    width: 900px;
+    border-bottom: 5px solid #ba95dc;
+    margin-left: 2%;
+  }
+}
